@@ -72,19 +72,19 @@ const Main = (props) => {
           </SocialCounts>
           <SocialActions>
             <button>
-              <img src="/images/like.svg" alt="" />
+              <img src="" alt="" />
               <span>Like</span>
             </button>
             <button>
-              <img src="/images/comments.svg" alt="" />
+              <img src="" alt="" />
               <span>Comments</span>
             </button>
             <button>
-              <img src="/images/share.svg" alt="" />
+              <img src="" alt="" />
               <span>Share</span>
             </button>
             <button>
-              <img src="/images/send.svg" alt="" />
+              <img src="" alt="" />
               <span>Send</span>
             </button>
           </SocialActions>
@@ -273,16 +273,11 @@ const SocialActions = styled.div`
     align-items: center;
     padding: 8px;
     color: #0a66c2;
-    font-weight: 600;
-    margin: 2px;
+    margin-right: 2px;
     @media (min-width: 768px) {
       span {
         margin-left: 8px;
       }
-    }
-    img {
-      width: 20px;
-      height: 20px;
     }
   }
 `;
